@@ -1,0 +1,16 @@
+{
+  "name": "1st-backend-proj",
+  "version": "1.0.0",
+  "description": "this is my 1st backend project",
+  "keywords": [
+    "backend",
+    "consistency"
+  ],
+  "license": "ISC",
+  "author": "Mounasuvra Banerjee",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
