@@ -22,4 +22,4 @@ else {
 
 }
 
-export default ApiError;
+export { ApiError }

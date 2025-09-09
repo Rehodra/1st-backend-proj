@@ -2,7 +2,7 @@ import mongoose, {Schema} from "mongoose";
 import jwt from "jsonwebtoken";
 import bycrpt from "bcrypt"
 const userSchema =new Schema({
-    username:{
+    userName:{
       type:String,
       required:true,
       unique:true,
@@ -10,7 +10,7 @@ const userSchema =new Schema({
       trim:true,
       minlength: 3,
       maxlength: 100,
-      index: true, // at mongoDB is we want to search quickly in an optimized way set index:true
+      index: true, // at mongoDB index is we want to search quickly in an optimized way set index:true
     },
     email:{
       type:String,
@@ -19,7 +19,7 @@ const userSchema =new Schema({
       lowercase:true,
       trim:true,
     },
-    fullname:{
+    fullName:{
       type:String,
       required:true,
       trim:true,
